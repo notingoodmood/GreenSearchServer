@@ -24,7 +24,7 @@ public class A10011 extends HttpServlet {
             JSONObject jsonObject = JSONObject.parseObject(request.getParameter("data"));
             int id = jsonObject.getIntValue("id");
             String phone_num = jsonObject.getString("phonenumber");
-            UpdateInterests.UpdateShopInterest(id, phone_num,3);
+            UpdateInterests.UpdateShopInterest(id, phone_num,3,"SHOPPINGINTERESTS");
             UpdateInterests.TimeoutDelete();
         }catch (Exception e){
             e.printStackTrace();

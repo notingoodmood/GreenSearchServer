@@ -3,9 +3,9 @@ import java.sql.*;
 
 public class DatabaseHelper {
 
-    private static final String address="jdbc:mysql://cdb-9z0nzkve.cd.tencentcdb.com:10010?characterEncoding=utf8&useSSL=true";
+    private static final String address="jdbc:mysql://cdb-cdmzq14w.cd.tencentcdb.com:10078?characterEncoding=utf8&useSSL=true";
     private static final String client="Test";
-    private static final String code="Test2019!@";
+    private static final String code="ttt123456";
 
     private Statement statement;
     private Connection connection;

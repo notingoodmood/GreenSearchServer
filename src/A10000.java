@@ -19,7 +19,7 @@ import java.io.PrintWriter;
 @WebServlet("/A10000")
 public class A10000 extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        doGet(request,response);
+
     }
 
     @SuppressWarnings("ALL")

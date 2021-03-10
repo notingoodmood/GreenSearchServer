@@ -60,6 +60,7 @@ public class A10012 extends HttpServlet {
                     JSONObject innerjson=new JSONObject();
                     innerjson.put("name",name);
                     innerjson.put("link",link);
+                    innerjson.put("pic_link","https://greensearch-shop-photo-1257936688.cos.ap-chengdu.myqcloud.com/"+pic_id+".jpg");
                     innerjson.put("pic_id",pic_id);
                     interest_result.add(innerjson);
                     index++;
@@ -73,6 +74,7 @@ public class A10012 extends HttpServlet {
                         JSONObject innerjson=new JSONObject();
                         innerjson.put("name",name);
                         innerjson.put("link",link);
+                        innerjson.put("pic_link","https://greensearch-shop-photo-1257936688.cos.ap-chengdu.myqcloud.com/"+pic_id+".jpg");
                         innerjson.put("pic_id",pic_id);
                         random_result.add(innerjson);
                         index++;
@@ -87,6 +89,7 @@ public class A10012 extends HttpServlet {
                     JSONObject inner_json=new JSONObject();
                     inner_json.put("name",name);
                     inner_json.put("link",link);
+                    inner_json.put("pic_link","https://greensearch-shop-photo-1257936688.cos.ap-chengdu.myqcloud.com/"+pic_id+".jpg");
                     inner_json.put("pic_id",pic_id);
                     random_result.add(inner_json);
                     index++;

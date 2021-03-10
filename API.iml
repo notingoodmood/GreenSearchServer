@@ -41,5 +41,10 @@
     <orderEntry type="library" name="jxl" level="project" />
     <orderEntry type="library" name="jxl (2)" level="project" />
     <orderEntry type="library" name="pinyin4j-2.5.0 (2)" level="project" />
+    <orderEntry type="library" name="tencentcloud-sdk-java-3.0.95" level="project" />
+    <orderEntry type="library" name="javax.xml.bind" level="project" />
+    <orderEntry type="library" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" name="okhttp-2.5.0" level="project" />
+    <orderEntry type="library" name="okio-1.6.0" level="project" />
   </component>
 </module>
